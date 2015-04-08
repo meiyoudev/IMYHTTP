@@ -1,0 +1,18 @@
+{
+  "name": "IMYHTTP",
+  "version": "1.0",
+  "summary": "AFN+RAC",
+  "description": "网络请求，采用RAC和AFN",
+  "homepage": "https://github.com/meiyoudev/IMYHTTP",
+  "license": "MIT",
+  "authors": {"Ivan": "dcty@qq.com"},
+  "source": {"git": "https://github.com/meiyoudev/IMYHTTP.git"},
+  "platforms": {"ios": "6.0"},
+  "source_files": "IMYHTTP/IMYHTTP/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "ObjcAssociatedObjectHelpers": [],
+   	"AFNetworking":[],
+   	"ReactiveCocoa":[{"tag":"2.4.7"}]
+  }
+}

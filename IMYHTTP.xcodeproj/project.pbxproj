@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22F6325A3AC7F83718B07491 /* AFHTTPRequestOperationManager+IMYHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F6340459380CF534806DFD /* AFHTTPRequestOperationManager+IMYHTTP.m */; };
+		22F632A82FC007E168F64E73 /* AFHTTPRequestOperation+IMYHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F63497708B84B42BE4A175 /* AFHTTPRequestOperation+IMYHTTP.m */; };
+		22F63524440E2FEE3C2E987B /* IMYRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F63F7AA4C2AD50A719CA60 /* IMYRequestSerializer.m */; };
+		22F637EDAF316ABAB5CDCE39 /* IMYHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F63D392926E27EF6B631BF /* IMYHTTP.m */; };
+		22F638EFA106A93EA39578E2 /* NSError+IMYHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F63CD39BF0CC681B52E87D /* NSError+IMYHTTP.m */; };
+		22F63EE3D14922D595777971 /* IMYHTTPBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F63E642546E54870EE4A61 /* IMYHTTPBuilder.m */; };
+		2CE1FF6F1ACE556E006E8AA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1FF6E1ACE556E006E8AA4 /* main.m */; };
+		2CE1FF721ACE556E006E8AA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1FF711ACE556E006E8AA4 /* AppDelegate.m */; };
+		2CE1FF751ACE556E006E8AA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1FF741ACE556E006E8AA4 /* ViewController.m */; };
+		2CE1FF781ACE556E006E8AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE1FF761ACE556E006E8AA4 /* Main.storyboard */; };
+		2CE1FF7A1ACE556E006E8AA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE1FF791ACE556E006E8AA4 /* Images.xcassets */; };
+		2CE1FF7D1ACE556E006E8AA4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CE1FF7B1ACE556E006E8AA4 /* LaunchScreen.xib */; };
+		2CE1FF891ACE556E006E8AA4 /* IMYHTTPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1FF881ACE556E006E8AA4 /* IMYHTTPTests.m */; };
+		9B293283F3B22FD67F563CDC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C97EF197E03FCA9DA3AC1CE /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CE1FF831ACE556E006E8AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CE1FF611ACE556E006E8AA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CE1FF681ACE556E006E8AA4;
+			remoteInfo = IMYHTTP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0951D0C649060D74D5C4636A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		22F631BEE6DE1BE0203783DE /* IMYRequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMYRequestSerializer.h; sourceTree = "<group>"; };
+		22F63207A9F0C3507081B11B /* NSError+IMYHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+IMYHTTP.h"; sourceTree = "<group>"; };
+		22F6340459380CF534806DFD /* AFHTTPRequestOperationManager+IMYHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPRequestOperationManager+IMYHTTP.m"; sourceTree = "<group>"; };
+		22F63497708B84B42BE4A175 /* AFHTTPRequestOperation+IMYHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPRequestOperation+IMYHTTP.m"; sourceTree = "<group>"; };
+		22F634C945D6B1001F8D9004 /* AFHTTPRequestOperationManager+IMYHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPRequestOperationManager+IMYHTTP.h"; sourceTree = "<group>"; };
+		22F637B18106401E5E1D6D97 /* IMYHTTPBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMYHTTPBuilder.h; sourceTree = "<group>"; };
+		22F63BF4F1DFCDE210948A02 /* IMYHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMYHTTP.h; sourceTree = "<group>"; };
+		22F63CD39BF0CC681B52E87D /* NSError+IMYHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+IMYHTTP.m"; sourceTree = "<group>"; };
+		22F63D392926E27EF6B631BF /* IMYHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMYHTTP.m; sourceTree = "<group>"; };
+		22F63DD081D19BAF0B94CE9B /* AFHTTPRequestOperation+IMYHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPRequestOperation+IMYHTTP.h"; sourceTree = "<group>"; };
+		22F63E642546E54870EE4A61 /* IMYHTTPBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMYHTTPBuilder.m; sourceTree = "<group>"; };
+		22F63F7AA4C2AD50A719CA60 /* IMYRequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMYRequestSerializer.m; sourceTree = "<group>"; };
+		2CE1FF691ACE556E006E8AA4 /* IMYHTTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMYHTTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE1FF6D1ACE556E006E8AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE1FF6E1ACE556E006E8AA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CE1FF701ACE556E006E8AA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CE1FF711ACE556E006E8AA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CE1FF731ACE556E006E8AA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2CE1FF741ACE556E006E8AA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2CE1FF771ACE556E006E8AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CE1FF791ACE556E006E8AA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2CE1FF7C1ACE556E006E8AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2CE1FF821ACE556E006E8AA4 /* IMYHTTPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMYHTTPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE1FF871ACE556E006E8AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE1FF881ACE556E006E8AA4 /* IMYHTTPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMYHTTPTests.m; sourceTree = "<group>"; };
+		3EB858782D94933CA09BE1CC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8C97EF197E03FCA9DA3AC1CE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CE1FF661ACE556E006E8AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B293283F3B22FD67F563CDC /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE1FF7F1ACE556E006E8AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20F114D5E68878397E09E00F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C97EF197E03FCA9DA3AC1CE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CE1FF601ACE556E006E8AA4 = {
+			isa = PBXGroup;
+			children = (
+				2CE1FF6B1ACE556E006E8AA4 /* IMYHTTP */,
+				2CE1FF851ACE556E006E8AA4 /* IMYHTTPTests */,
+				2CE1FF6A1ACE556E006E8AA4 /* Products */,
+				497FC3BFDF5B685AFC6A65DD /* Pods */,
+				20F114D5E68878397E09E00F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2CE1FF6A1ACE556E006E8AA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CE1FF691ACE556E006E8AA4 /* IMYHTTP.app */,
+				2CE1FF821ACE556E006E8AA4 /* IMYHTTPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CE1FF6B1ACE556E006E8AA4 /* IMYHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				2CE1FF921ACE55E8006E8AA4 /* IMYHTTP */,
+				2CE1FF701ACE556E006E8AA4 /* AppDelegate.h */,
+				2CE1FF711ACE556E006E8AA4 /* AppDelegate.m */,
+				2CE1FF731ACE556E006E8AA4 /* ViewController.h */,
+				2CE1FF741ACE556E006E8AA4 /* ViewController.m */,
+				2CE1FF761ACE556E006E8AA4 /* Main.storyboard */,
+				2CE1FF791ACE556E006E8AA4 /* Images.xcassets */,
+				2CE1FF7B1ACE556E006E8AA4 /* LaunchScreen.xib */,
+				2CE1FF6C1ACE556E006E8AA4 /* Supporting Files */,
+			);
+			path = IMYHTTP;
+			sourceTree = "<group>";
+		};
+		2CE1FF6C1ACE556E006E8AA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CE1FF6D1ACE556E006E8AA4 /* Info.plist */,
+				2CE1FF6E1ACE556E006E8AA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CE1FF851ACE556E006E8AA4 /* IMYHTTPTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CE1FF881ACE556E006E8AA4 /* IMYHTTPTests.m */,
+				2CE1FF861ACE556E006E8AA4 /* Supporting Files */,
+			);
+			path = IMYHTTPTests;
+			sourceTree = "<group>";
+		};
+		2CE1FF861ACE556E006E8AA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CE1FF871ACE556E006E8AA4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CE1FF921ACE55E8006E8AA4 /* IMYHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				22F63D392926E27EF6B631BF /* IMYHTTP.m */,
+				22F63BF4F1DFCDE210948A02 /* IMYHTTP.h */,
+				22F63E642546E54870EE4A61 /* IMYHTTPBuilder.m */,
+				22F637B18106401E5E1D6D97 /* IMYHTTPBuilder.h */,
+				22F631BEE6DE1BE0203783DE /* IMYRequestSerializer.h */,
+				22F63F7AA4C2AD50A719CA60 /* IMYRequestSerializer.m */,
+				22F63CD39BF0CC681B52E87D /* NSError+IMYHTTP.m */,
+				22F63207A9F0C3507081B11B /* NSError+IMYHTTP.h */,
+				22F6340459380CF534806DFD /* AFHTTPRequestOperationManager+IMYHTTP.m */,
+				22F634C945D6B1001F8D9004 /* AFHTTPRequestOperationManager+IMYHTTP.h */,
+				22F63497708B84B42BE4A175 /* AFHTTPRequestOperation+IMYHTTP.m */,
+				22F63DD081D19BAF0B94CE9B /* AFHTTPRequestOperation+IMYHTTP.h */,
+			);
+			path = IMYHTTP;
+			sourceTree = "<group>";
+		};
+		497FC3BFDF5B685AFC6A65DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EB858782D94933CA09BE1CC /* Pods.debug.xcconfig */,
+				0951D0C649060D74D5C4636A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CE1FF681ACE556E006E8AA4 /* IMYHTTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE1FF8C1ACE556E006E8AA4 /* Build configuration list for PBXNativeTarget "IMYHTTP" */;
+			buildPhases = (
+				2269F2D34F8AC22C41DE16DE /* Check Pods Manifest.lock */,
+				2CE1FF651ACE556E006E8AA4 /* Sources */,
+				2CE1FF661ACE556E006E8AA4 /* Frameworks */,
+				2CE1FF671ACE556E006E8AA4 /* Resources */,
+				9FB766B32F2B12BF94FDF893 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMYHTTP;
+			productName = IMYHTTP;
+			productReference = 2CE1FF691ACE556E006E8AA4 /* IMYHTTP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CE1FF811ACE556E006E8AA4 /* IMYHTTPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE1FF8F1ACE556E006E8AA4 /* Build configuration list for PBXNativeTarget "IMYHTTPTests" */;
+			buildPhases = (
+				2CE1FF7E1ACE556E006E8AA4 /* Sources */,
+				2CE1FF7F1ACE556E006E8AA4 /* Frameworks */,
+				2CE1FF801ACE556E006E8AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CE1FF841ACE556E006E8AA4 /* PBXTargetDependency */,
+			);
+			name = IMYHTTPTests;
+			productName = IMYHTTPTests;
+			productReference = 2CE1FF821ACE556E006E8AA4 /* IMYHTTPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CE1FF611ACE556E006E8AA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ivan Chua";
+				TargetAttributes = {
+					2CE1FF681ACE556E006E8AA4 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					2CE1FF811ACE556E006E8AA4 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 2CE1FF681ACE556E006E8AA4;
+					};
+				};
+			};
+			buildConfigurationList = 2CE1FF641ACE556E006E8AA4 /* Build configuration list for PBXProject "IMYHTTP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CE1FF601ACE556E006E8AA4;
+			productRefGroup = 2CE1FF6A1ACE556E006E8AA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CE1FF681ACE556E006E8AA4 /* IMYHTTP */,
+				2CE1FF811ACE556E006E8AA4 /* IMYHTTPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CE1FF671ACE556E006E8AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE1FF781ACE556E006E8AA4 /* Main.storyboard in Resources */,
+				2CE1FF7D1ACE556E006E8AA4 /* LaunchScreen.xib in Resources */,
+				2CE1FF7A1ACE556E006E8AA4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE1FF801ACE556E006E8AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2269F2D34F8AC22C41DE16DE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9FB766B32F2B12BF94FDF893 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CE1FF651ACE556E006E8AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE1FF751ACE556E006E8AA4 /* ViewController.m in Sources */,
+				2CE1FF721ACE556E006E8AA4 /* AppDelegate.m in Sources */,
+				2CE1FF6F1ACE556E006E8AA4 /* main.m in Sources */,
+				22F637EDAF316ABAB5CDCE39 /* IMYHTTP.m in Sources */,
+				22F63EE3D14922D595777971 /* IMYHTTPBuilder.m in Sources */,
+				22F63524440E2FEE3C2E987B /* IMYRequestSerializer.m in Sources */,
+				22F638EFA106A93EA39578E2 /* NSError+IMYHTTP.m in Sources */,
+				22F6325A3AC7F83718B07491 /* AFHTTPRequestOperationManager+IMYHTTP.m in Sources */,
+				22F632A82FC007E168F64E73 /* AFHTTPRequestOperation+IMYHTTP.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE1FF7E1ACE556E006E8AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE1FF891ACE556E006E8AA4 /* IMYHTTPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CE1FF841ACE556E006E8AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CE1FF681ACE556E006E8AA4 /* IMYHTTP */;
+			targetProxy = 2CE1FF831ACE556E006E8AA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CE1FF761ACE556E006E8AA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CE1FF771ACE556E006E8AA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CE1FF7B1ACE556E006E8AA4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CE1FF7C1ACE556E006E8AA4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CE1FF8A1ACE556E006E8AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2CE1FF8B1ACE556E006E8AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CE1FF8D1ACE556E006E8AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EB858782D94933CA09BE1CC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IMYHTTP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Debug;
+		};
+		2CE1FF8E1ACE556E006E8AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0951D0C649060D74D5C4636A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IMYHTTP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Release;
+		};
+		2CE1FF901ACE556E006E8AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IMYHTTPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMYHTTP.app/IMYHTTP";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Debug;
+		};
+		2CE1FF911ACE556E006E8AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IMYHTTPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMYHTTP.app/IMYHTTP";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CE1FF641ACE556E006E8AA4 /* Build configuration list for PBXProject "IMYHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE1FF8A1ACE556E006E8AA4 /* Debug */,
+				2CE1FF8B1ACE556E006E8AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE1FF8C1ACE556E006E8AA4 /* Build configuration list for PBXNativeTarget "IMYHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE1FF8D1ACE556E006E8AA4 /* Debug */,
+				2CE1FF8E1ACE556E006E8AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE1FF8F1ACE556E006E8AA4 /* Build configuration list for PBXNativeTarget "IMYHTTPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE1FF901ACE556E006E8AA4 /* Debug */,
+				2CE1FF911ACE556E006E8AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CE1FF611ACE556E006E8AA4 /* Project object */;
+}

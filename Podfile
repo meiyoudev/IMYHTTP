@@ -1,0 +1,6 @@
+platform :ios,"6.0"
+pod "AFNetworking"
+pod "AFNetworkActivityLogger"
+pod "ReactiveCocoa","2.4.7"
+pod "ObjcAssociatedObjectHelpers"
+pod "Aspects"
