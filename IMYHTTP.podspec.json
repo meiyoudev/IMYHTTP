@@ -13,6 +13,6 @@
   "dependencies": {
     "ObjcAssociatedObjectHelpers": [],
    	"AFNetworking":[],
-   	"ReactiveCocoa":[{"tag":"2.4.7"}]
+   	"ReactiveCocoa":[]
   }
 }
