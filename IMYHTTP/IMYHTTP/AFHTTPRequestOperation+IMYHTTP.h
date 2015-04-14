@@ -8,7 +8,13 @@
 
 @class RACSignal;
 
+@interface NSError(IMYHTTP)
+@property AFHTTPRequestOperation *requestOperation;
+@end
+
 @interface AFHTTPRequestOperation (IMYHTTP)
 - (RACSignal *)rac_start;
+
 - (RACSignal *)rac_overrideHTTPCompletionBlock;
+
 @end
